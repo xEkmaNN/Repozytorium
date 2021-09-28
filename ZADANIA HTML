@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>28.09</title>
+        <script src="js.js"></script>
+    </head>
+    <body>
+        <form action="" name="FROM1">
+            Podaj login <input type="text" name="login"> <br> <br>
+            Podaj hasło <input type="password" name="haslo"> <br><br>
+            Powtórz hasło <input type="password" name="phaslo"> <br><br>
+
+            <input type="button" value="rejestruj" onclick="klik()">
+            <input type="button" value="wyczyść" onclick="klik2()">
+        </form>
+        <br><br><br><br><br><br><br> 
+        <input type="button" value="zadanie2" onclick="trojkat()">
+
+        <br><br><br><br><br><br><br> 
+        <input type="button" value="zadanie3" onclick="dzien()">
+    </body>
+</html>
