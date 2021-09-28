@@ -1,0 +1,74 @@
+
+function klik()
+{
+    let haslo = document.querySelector("input[name='haslo']");
+    let phaslo = document.querySelector("input[name='phaslo']");
+
+
+    if(haslo.value!=phaslo.value)
+    {
+        alert("hasło różni się od powtorzonego hasła");
+    }
+    else
+    {
+        alert("Hasła się pokrywa z powtórzonym hasłem");
+    }
+
+}
+
+/*
+function klik(FORM1)
+{
+    if(FORM1.haslo.value == FORM1.phaslo.value){
+        alert('HASŁA ZGODNE');
+    }
+    else{
+        alert('HASŁA NIE ZGADZAJĄ SIĘ')
+    }
+}
+*/
+function trojkat()
+{
+
+    let a = prompt("Podaj bok A");
+    let b = prompt("Podaj bok B");
+    let c = prompt("Podaj bok C");
+
+
+    if(a == b && b == c)
+    {
+        alert("OTRZYMAŁEŚ/AŚ TRÓJKAT RÓWNOBOCZNY");
+    }
+    else if (a == b && b != c)
+    {
+        alert("OTRZYMAŁEŚ/AŚ TRÓJKĄT RÓWNORAMIENNY");
+    }
+    else if(a + b < c){
+        alert("PODAJ POPRAWNE LICZBY");
+    }
+    else{
+        alert("PODAJ POPRAWNE LICZBY");
+    }
+
+}
+function dzien()
+{
+
+    let dzien = prompt("Podaj dzień tygodnia liczbowo (1 - 7)");
+
+    if(dzien > 0 && dzien<=5)
+    {
+        alert("Dzień roboczy");
+    }
+    else if(dzien >= 6 && dzien<= 7)
+    {
+        alert("Weekend");
+    }
+    else
+    {
+        alert("Nie ma takiego dnia");
+    }
+
+}
+    
+
